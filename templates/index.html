@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Neon Task Manager</title>
+  <title>Task Manager</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body class="dark-mode">
   <div class="container">
-    <h1>Neon Task Manager</h1>
+    <h1>Task Manager</h1>
 
     <form action="/add" method="POST" onsubmit="return validateInput();">
       <input type="text" name="content" id="task-input" placeholder="Enter a task" maxlength="20" required>
